@@ -10,7 +10,7 @@ Create a `.env` file in the project root:
 ```env
 GOOGLE_API_KEY=your_google_api_key
 CHROMA_DIR=./chroma_db
-LLM_MODEL=gemini-1.5-pro
+LLM_MODEL=gemini-2.5-flash
 HF_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
 ```
 
