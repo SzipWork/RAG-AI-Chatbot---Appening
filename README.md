@@ -3,7 +3,19 @@
 A **Retrieval-Augmented Generation (RAG) based AI chatbot** that enables users to ask questions and generate summaries **strictly from an ebook**.  
 Built using **LangChain, LangGraph, ChromaDB, FastAPI, and Streamlit**, this project demonstrates an agentic RAG pipeline with clean routing, retrieval, and answer generation.
 
-## ⚙️ Environment Setup
+## System Architecture
+
+User (Streamlit UI)
+-->
+FastAPI (/chat endpoint)
+-->
+LangGraph Agent
+-->
+Vector Retrieval (ChromaDB)
+-->
+Answer Generator (LLM)
+
+## Environment Setup
 
 Create a `.env` file in the project root:
 
